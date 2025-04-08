@@ -11,8 +11,8 @@ export default function Home() {
             <div className="flex items-center">
               <div className="w-12 h-12 object-contain mr-4 rounded bg-gray-700 p-1"></div>
               <div>
-                <h1 className="text-white text-xl font-bold">"item name"</h1>
-                <p className="text-gray-400 text-sm">"item game name"</p>
+                <h1 className="text-white text-xl font-bold">item name</h1>
+                <p className="text-gray-400 text-sm">item game name</p>
               </div>
             </div>
 
@@ -20,13 +20,13 @@ export default function Home() {
               <button
                 className="bg-gray-700 hover:bg-gray-600 text-white p-2 rounded-lg transition-colors"
               >
-                <div>"refresh"</div>
+                <div>refresh</div>
               </button>
 
               <button
                 className="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-lg transition-colors flex items-center"
               >
-                <div>"tracked items"</div>
+                <div>tracked items</div>
               </button>
             </div>
           </div>
@@ -40,34 +40,34 @@ export default function Home() {
               {/* Current Price Card */}
               <div className="bg-gray-800 rounded-2xl p-5 border border-gray-700 shadow-lg">
                 <div className="flex justify-between items-start mb-2">
-                  <p className="text-gray-400 font-medium">"current price"</p>
+                  <p className="text-gray-400 font-medium">current price</p>
                   <div className="px-2 py-1 rounded-full text-xs font-medium flex items-center bg-green-900/20 text-green-400">
-                    <div className="mr-1">"10.00%"</div>
+                    <div className="mr-1">10.00%</div>
                   </div>
                 </div>
                 <div className="flex items-baseline">
-                  <h2 className="text-white text-3xl font-bold">"CDN$ 100"</h2>
+                  <h2 className="text-white text-3xl font-bold">CDN$ 100</h2>
                 </div>
-                <p className="text-gray-400 text-sm mt-1">"Up +22.14 in the last month"</p>
+                <p className="text-gray-400 text-sm mt-1">Up +22.14 in the last month</p>
               </div>
 
               {/* Volume Card */}
               <div className="bg-gray-800 rounded-2xl p-5 border border-gray-700 shadow-lg">
-                <p className="text-gray-400 font-medium mb-2">"Volume"</p>
+                <p className="text-gray-400 font-medium mb-2">Volume</p>
                 <div className="flex items-baseline">
-                  <h2 className="text-white text-3xl font-bold">"100"</h2>
+                  <h2 className="text-white text-3xl font-bold">100</h2>
                 </div>
-                <p className="text-gray-400 text-sm mt-1">"Volume of items on the market"</p>
+                <p className="text-gray-400 text-sm mt-1">Volume of items on the market</p>
               </div>
 
               {/* Median Price Card */}
               <div className="bg-gray-800 rounded-2xl p-5 border border-gray-700 shadow-lg lg:col-span-1 col-span-2">
-                <p className="text-gray-400 font-medium mb-2">"Market trend"</p>
+                <p className="text-gray-400 font-medium mb-2">Market trend</p>
                 <div className="flex items-center">
-                  <div className="mr-2 text-green-400">"UP"</div>
-                  <h2 className="text-white text-xl font-bold">"Upwards trend"</h2>
+                  <div className="mr-2 text-green-400">UP</div>
+                  <h2 className="text-white text-xl font-bold">Upwards trend</h2>
                 </div>
-                <p className="text-gray-400 text-sm mt-1">"Based on historical data"</p>
+                <p className="text-gray-400 text-sm mt-1">Based on historical data</p>
               </div>
             </div>
 
@@ -76,9 +76,9 @@ export default function Home() {
               <div className="bg-gray-800 rounded-2xl p-5 border border-gray-700 shadow-lg h-full">
                 <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
                   <div className="flex items-center mb-4 sm:mb-0">
-                    <h3 className="text-white text-lg font-bold mr-2">"Price history"</h3>
+                    <h3 className="text-white text-lg font-bold mr-2">Price history</h3>
                     <div className="bg-indigo-900/30 text-indigo-400 text-xs px-2 py-1 rounded-full flex items-center">
-                      <div className="mr-1">"Tracked data"</div>
+                      <div className="mr-1">Tracked data</div>
                     </div>
                   </div>
 
@@ -86,17 +86,17 @@ export default function Home() {
                     {/* Chart Type Selector */}
                     <div className="bg-gray-700 rounded-lg p-1 flex">
                       <button className="px-3 py-1 rounded-md text-sm font-medium transition-colors bg-indigo-600 text-white">
-                        "line"
+                        line
                       </button>
                       <button className="px-3 py-1 rounded-md text-sm font-medium transition-colors text-gray-300 hover:bg-gray-600">
-                        "bar"
+                        bar
                       </button>
                     </div>
 
                     {/* Time Range Selector */}
                     <div className="relative">
                       <button className="bg-gray-700 hover:bg-gray-600 text-gray-300 px-3 py-1.5 rounded-lg text-sm font-medium flex items-center">
-                        "range"
+                        range
                       </button>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ export default function Home() {
                 {/* Chart Container */}
                 <div className="h-[300px] flex items-center justify-center rounded-xl bg-gray-800">
                   {/* Chart will go here */}
-                  <div className="text-gray-500">"Chart"</div>
+                  <div className="text-gray-500">'Chart'</div> 
                 </div>
               </div>
             </div>
