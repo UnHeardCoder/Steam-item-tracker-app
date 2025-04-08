@@ -105,7 +105,7 @@ export default function Home() {
                 {/* Chart Container */}
                 <div className="h-[300px] flex items-center justify-center rounded-xl bg-gray-800">
                   {/* Chart will go here */}
-                  <div className="text-gray-500">'Chart'</div> 
+                  <div className="text-gray-500">Chart</div> 
                 </div>
               </div>
             </div>
