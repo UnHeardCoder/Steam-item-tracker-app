@@ -9,8 +9,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-  DialogFooter, // If needed
-  DialogClose, // If needed
+  DialogFooter, // If needed.
 } from "~/components/ui/dialog"; // Use your import alias
 import { Button } from "~/components/ui/button"; // Or your trigger element
 

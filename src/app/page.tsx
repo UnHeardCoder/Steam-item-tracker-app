@@ -1,83 +1,10 @@
-import { Search } from "lucide-react";
+
 import { ItemPopup } from "~/components/itempopup";
-import { Button } from "~/components/ui/button"
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "~/components/ui/dialog"
-import { Input } from "~/components/ui/input"
-import { Label } from "~/components/ui/label"
+
 
 export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 to-gray-950 p-4 font-sans">
-
-      {/* Search Form Modal */}
-      {/* background blur */}
-      {/* <div className="absolute inset-0 flex items-center justify-center bg-gray-900/95 backdrop-blur-sm z-50 p-6">
-        <div className="bg-gray-800 rounded-2xl p-6 w-full max-w-md border border-gray-700 shadow-xl">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-white text-xl font-bold">Change Item</h2>
-            <button
-              onClick={() => setShowSearch(false)}
-              className="text-gray-400 hover:text-white transition-colors p-1 rounded-full hover:bg-gray-700"
-            >
-              <X size={20} />
-            </button>
-          </div>
-
-          <form onSubmit={handleSearchSubmit} className="space-y-5">
-            <div>
-              <label htmlFor="appid" className="block text-gray-300 mb-2 font-medium">
-                App ID
-              </label>
-              <input
-                type="text"
-                id="appid"
-                name="appid"
-                value={searchParams.appid}
-                onChange={handleInputChange}
-                className="w-full bg-gray-900 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
-                placeholder="730 (CS:GO), 570 (Dota 2), 440 (TF2)"
-              />
-              <p className="text-gray-400 text-xs mt-2">Common App IDs: 730 (CS:GO), 570 (Dota 2), 440 (TF2)</p>
-            </div>
-
-            <div>
-              <label htmlFor="market_hash_name" className="block text-gray-300 mb-2 font-medium">
-                Item Name
-              </label>
-              <input
-                type="text"
-                id="market_hash_name"
-                name="market_hash_name"
-                value={searchParams.market_hash_name}
-                onChange={handleInputChange}
-                className="w-full bg-gray-900 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
-                placeholder="CS:GO Weapon Case"
-              />
-              <p className="text-gray-400 text-xs mt-2">
-                Example: CS:GO Weapon Case, AWP | Asiimov (Field-Tested)
-              </p>
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-4 rounded-lg transition-colors shadow-lg flex items-center justify-center"
-            >
-              <Search size={18} className="mr-2" />
-              Search Item
-            </button>
-          </form>
-        </div>
-      </div> */}
-
-
-
       <div className="w-full max-w-6xl rounded-3xl bg-gray-900 shadow-2xl overflow-hidden relative">
         
         {/* Header */}
@@ -97,7 +24,6 @@ export default function Home() {
               >
                 <div>refresh</div>
               </button>
-              
               <ItemPopup />
             </div>
           </div>
